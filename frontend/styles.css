@@ -1,0 +1,14 @@
+/* Basic styles, add more as needed */
+body { font-family: sans-serif; background: #f0f8ff; color: #333; }
+header { background: #007bff; color: white; padding: 1em 0; text-align: center; } 
+.tagline { font-size: 1.2em; }
+.container { display: flex; justify-content: space-around; padding: 2em; }
+section { background: white; padding: 1.5em; border-radius: 8px; margin: 1em; }
+h2 { color: #007bff; }
+.input-group { display: flex; align-items: center; margin-bottom: 1em; }
+label { margin-right: 0.5em; }
+
+/* Buttons */
+button { /* ... your existing button styles ... */ } 
+button:hover { /* ... and hover effect ... */ }
+#connectButton { background: #4CAF50; } /* Make MetaMask button distinct */
