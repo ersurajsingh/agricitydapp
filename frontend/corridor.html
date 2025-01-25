@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agricity Corridor</title>
+  <link rel="stylesheet" href="corridor.css">
+</head>
+<body>
+
+  <header>
+    <h1>Agricity Corridor</h1>
+    <p class="tagline">Empowering Farmers with Fast Track Produce Delivery</p>
+    <button class="back-button" onclick="location.href='index.html'">Back to Home</button>
+    <a href="https://forms.gle/A5b5zdattutvGx8H7" target="_blank" class="form-link">Farmer Mental Health Survey</a>
+  </header>
+
+  <main class="container">
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>Agricity is a decentralized application (dApp) built on Ethereum blockchain that facilitates the registration of beneficiaries and disbursal of subsidies to promote agricultural development.</p>
+      <p>User-Friendly Interface: Intuitive UI for seamless interaction with the dApp.</p>
+      <p>In the current milestone, we have established a connection with one Urban Housing Society, 20 farmers to get their produce (potato, onion, tomatoes) being sold at the societies, and one village chief.</p>
+    </section>
+
+    <section id="quick-send">
+      <h2>Quick Send Produce</h2>
+      <div class="input-group">
+        <label for="produceType">Produce Type:</label>
+        <select id="produceType" class="styled-select">
+          <option value="potato">Potato</option>
+          <option value="onion">Onion</option>
+          <option value="tomato">Tomato</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="quantity">Quantity (kg):</label>
+        <input type="number" id="quantity">
+      </div>
+      <button id="sendProduce">Send Produce</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Agricity. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script> 
+</body>
+</html>
